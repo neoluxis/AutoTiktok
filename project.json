@@ -1,0 +1,53 @@
+{
+    "abis": [
+      "arm64-v8a"
+    ],
+    "assets": [
+      {
+        "form": "/storage/emulated/0/Scripts/AutoTiktok",
+        "to": "/project"
+      }
+    ],
+    "buildDir": "build",
+    "build": {
+      "build_id": null,
+      "build_number": 0,
+      "build_time": 0
+    },
+    "useFeatures": [],
+    "icon": null,
+    "ignoredDirs": [
+      "build"
+    ],
+    "launchConfig": {
+      "displaySplash": true,
+      "hideAccessibilityServices": false,
+      "hideLauncher": false,
+      "hideLogs": false,
+      "stableMode": false,
+      "volumeUpcontrol": true,
+      "permissions": [
+        "accessibility_services"
+      ],
+      "serviceDesc": "Required to automate script operations (click, long press, swipe, etc.), if disabled, only scripts that do not involve automatic operations can be executed.",
+      "splashIcon": null,
+      "splashText": "Neolux's App"
+    },
+    "libs": [
+      "libjackpal-androidterm5.so",
+      "libjackpal-termexec2.so"
+    ],
+    "main": "main.js",
+    "name": "AutoTiktok",
+    "outputPath": "/storage/emulated/0/Scripts/AutoTiktok/build",
+    "packageName": "com.neolux.autoes.tiktok",
+    "projectDirectory": "/storage/emulated/0/Scripts/AutoTiktok",
+    "scripts": {},
+    "signingConfig": {
+      "alias": "autojs",
+      "keystore": "/storage/emulated/0/Scripts/.keyStore/com.neolux.autojs.key"
+    },
+    "sourcePath": "/storage/emulated/0/Scripts/AutoTiktok/main.js",
+    "versionCode": 1,
+    "versionName": "1.0.0"
+  }
